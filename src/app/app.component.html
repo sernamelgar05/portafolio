@@ -1,0 +1,103 @@
+<main class="portfolio">
+  <header class="hero card">
+    <p class="badge">Disponible para nuevos proyectos</p>
+    <h1>Víctor Rafael Serna Melgar</h1>
+    <p class="subtitle">Desarrollador FullStack</p>
+    <p>
+      Experiencia en backend con Spring Boot y Laravel, frontend con React, Blade y Angular,
+      gestión de bases de datos relacionales y no relacionales, y desarrollo de apps móviles con Kotlin.
+    </p>
+    <div class="hero-actions">
+      <a href="mailto:serna.melgar05@gmail.com">Contactar</a>
+      <a href="tel:+34640249634">Llamar</a>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Contacto</h2>
+    <ul>
+      <li>📍 Terrassa, Barcelona, 08224</li>
+      <li>✉️ <a href="mailto:serna.melgar05@gmail.com">serna.melgar05@gmail.com</a></li>
+      <li>📞 <a href="tel:+34640249634">640 249 634</a></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Tecnologías</h2>
+    <div class="chips">
+      @for (tech of techStack; track tech.name) {
+        <span>{{ tech.name }}</span>
+      }
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Experiencia profesional</h2>
+    <article>
+      <h3>Programador Full Stack · Abity</h3>
+      <p><strong>Noviembre 2025 - Actualmente</strong></p>
+      <ul>
+        <li>Desarrollo web en WordPress con Elementor.</li>
+        <li>Desarrollo y modificación de módulos en PrestaShop.</li>
+        <li>Desarrollo en Laravel, SQL y gestión de bases de datos con DBeaver.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>Programador Full Stack · Desarrollador Freelance</h3>
+      <p><strong>Octubre 2025 - Actualmente</strong></p>
+      <ul>
+        <li>Desarrollo de CRM para gimnasio.</li>
+        <li>Gestión de WebSockets con Pusher.</li>
+        <li>Implementación de pasarela de pago con Redsys.</li>
+        <li>Creación, gestión y consumo de APIs.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>Programador Full Stack · WordBusters</h3>
+      <p><strong>Noviembre 2024 - Agosto 2025</strong></p>
+      <ul>
+        <li>Modificación y desarrollo de APIs.</li>
+        <li>Desarrollo de sistema de afiliados.</li>
+        <li>Implementación de pantallas en React.</li>
+        <li>Reestructuración de bases de datos.</li>
+        <li>Frontend modular en Angular y consumo de APIs.</li>
+        <li>Implementación de Docker y CI/CD con GitLab.</li>
+        <li>Programación con Spring Boot.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>Técnico de soporte · Fractalia</h3>
+      <p><strong>Agosto 2023 - Julio 2024</strong></p>
+      <ul>
+        <li>Soporte a clientes y resolución de incidencias.</li>
+        <li>Gestión de tickets y escalado.</li>
+        <li>Comunicación con cliente para operativas.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="card columns">
+    <div>
+      <h2>Formación académica</h2>
+      <ul>
+        <li><strong>2025-2026:</strong> CFGS Desenvolupament d'Aplicacions Web · Instituto Nicolau Copèrnic</li>
+        <li><strong>2023-2025:</strong> CFGS Desenvolupament d'Aplicacions Multiplataforma · Instituto Nicolau Copèrnic</li>
+        <li><strong>2021-2023:</strong> CFGM Sistemes microinformàtics i xarxes · Instituto Nicolau Copèrnic</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Formación complementaria</h2>
+      <ul>
+        <li>Curso de Java (Udemy)</li>
+        <li>Introduction to MongoDB (Udemy)</li>
+        <li>Curso React (Udemy)</li>
+      </ul>
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Catalán: Nativo</li>
+        <li>Castellano: Nativo</li>
+        <li>Inglés: B1</li>
+      </ul>
+    </div>
+  </section>
+</main>
