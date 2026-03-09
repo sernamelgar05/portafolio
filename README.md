@@ -29,8 +29,3 @@ https://TU-USUARIO.github.io/portafolio/
 ```
 
 > Si tu repositorio usa otro nombre, actualiza el `--base-href /portafolio/` del workflow y el script de deploy.
-
-
-## Solución de problemas de deploy
-
-Si GitHub Actions muestra el error de lockfile faltante (`package-lock.json`), este proyecto ya usa `npm install` en el workflow para evitar ese bloqueo en el primer despliegue.
